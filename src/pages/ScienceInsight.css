@@ -1,0 +1,162 @@
+.science-insight {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #000000, #222222);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000000, #222222); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.science-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.science-container-first {
+  height: 100vh;
+}
+
+.science-container-first, .science-container-right {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.science-container-p {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.science-container-p h4 {
+  font-size: 22px;
+  color: #5ad1e6;
+}
+
+.science-container-p p {
+  font-size: 16px;
+}
+
+.science-container-second h1{
+  color: #5ad1e6;
+  margin-left: 70px;
+}
+
+.science-container-first .science-container-img,
+.science-container-right .science-container-img {
+  display: flex;
+  gap: 80px;
+  width: 1000px;
+  margin-left: 50px;
+  margin-top: 90px;
+}
+
+.science-container-first .science-container-img img,
+.science-container-right .science-container-img img {
+  width: 300px;
+  height: auto;
+}
+
+
+.science-container-first {
+  flex-direction: row;
+}
+
+.science-container-right {
+  flex-direction: row-reverse;
+}
+
+#lefty{
+  width: 400px;
+  height: 400px;
+  margin-top: 100px;
+}
+
+#righty {
+  width: 500px;
+  height: 700px;
+  border: 1px solid rgb(128, 128, 128);
+}
+
+.science-container-second {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-lefty{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  gap: 150px;
+  margin-top: 50px;
+}
+
+.second-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-left p {
+  width: 35vw;
+  font-size: 25px;
+}
+
+.second-left h4 {
+  font-size: 30px;
+}
+
+.satel {
+  margin-right: 50px;
+}
+
+#right-text {
+  margin-right: 50px;
+}
+
+
+.second-right {
+  width: 800px;
+}
+
+#mesame-satel {
+  margin-left: 60px;
+}
+
+#gps {
+  margin-right: 60px;
+}
+
+
+.last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  width: 70vw;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.last-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.last-second h4 {
+  font-size: 30px;
+}
+
+.last-second p {
+  font-size: 25px;
+}

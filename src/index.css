@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@100;300;400;700;900&display=swap');
+
+body {
+  height: 100vh;
+  background: #000000;
+  background: -webkit-linear-gradient(to top, #434343, #000000);
+  background: linear-gradient(to top, #434343, #000000);
+  font-size: 18px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Aleo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

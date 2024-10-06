@@ -1,0 +1,39 @@
+.about-container {
+  display: flex;                   
+  justify-content: center; 
+  align-items: center;
+  background: #000000;
+  background: -webkit-linear-gradient(to bottom, #000000, #222222);
+  background: linear-gradient(to bottom, #000000, #222222); 
+  margin-top: 34px;
+}
+
+.about {
+  color: white;   
+  max-width: 70vw; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.about-title {
+  color: #5ad1e6;
+}
+
+.about-intro, .about-members {
+  margin: 10px 0;
+}
+
+.highlight {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* .about-title {
+  color: #5ad1e6;
+} */

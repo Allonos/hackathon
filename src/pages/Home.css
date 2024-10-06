@@ -1,0 +1,154 @@
+.home-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.home-container{
+  min-height: 100vh;
+  background-image: url('../images/main-main.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home-header-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 15px;
+  justify-content: space-between;
+  position: relative;
+  bottom: 50px;
+}
+
+.header-title{
+  font-size: 35px;
+  margin: 0;
+  color: white;
+  margin-top: 15px;
+  flex: 1;
+  text-align: center;
+  position: relative;
+  min-width: 700px;
+  right: 10px;
+  top: 30px;
+  margin-top: 40px;
+}
+
+.highlight {
+  color: #189d88;
+}
+
+.home-nav {
+  display: flex;
+  position: relative;
+}
+
+.home-nav-links{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 35rem;
+  position: relative;
+  right: 180px;
+}
+
+.home-nav-link a {
+  margin: 0 18px;
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+
+.home-nav-link a:hover {
+  color: #5ad1e6;
+}
+
+.gradient-circles {
+  display: flex;
+  align-items: flex-end;
+}
+
+.gradient-circles img {
+  width: 55px;
+  height: 55px;
+}
+
+.home-list img{
+  width: 100px;
+}
+
+.home-nav-links {
+  width: 800px;
+  right: 10px;
+}
+
+.home-second-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.home-second-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 45px;
+  margin-left: 50px;
+}
+
+.home-second-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  bottom: 80px;
+  right: 90px;
+}
+
+.home-list {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  margin-top: 0;
+  position: relative;
+  bottom: 70px;
+  margin-top: 12px;
+  left: 10px;
+}
+
+.home-list p {
+  font-size: 27px;
+}
+
+.home-list img {
+  margin-right: 10px;
+  width: 120px;
+}
+
+.list-in {
+  margin-left: 80px;
+}
+
+.home-second-right {
+  width: 500px;
+  position: relative;
+  bottom: 240px;
+}
+
+.home-second-right img {
+  width: 700px;
+}
+
+.uncover {
+  width: 800px;
+  position: relative;
+  left: 1100px;
+  bottom: 400px;
+}
