@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hackathon/static/css/main.f5157394.css",
-    "main.js": "/hackathon/static/js/main.413e4463.js",
+    "main.css": "/hackathon/static/css/main.1b4f186e.css",
+    "main.js": "/hackathon/static/js/main.5156ec28.js",
     "static/media/sun-gif.gif": "/hackathon/static/media/sun-gif.f21d5133cf30a809ed39.gif",
     "static/media/auroragif.gif": "/hackathon/static/media/auroragif.c0e5f46776690a7c9c25.gif",
     "static/media/sunmodel.glb": "/hackathon/static/media/sunmodel.5ade414679039e43fd8f.glb",
@@ -23,17 +23,18 @@
     "static/media/data-visualisation.png": "/hackathon/static/media/data-visualisation.bbd695d5e9acb052b858.png",
     "static/media/figure-blue.png": "/hackathon/static/media/figure-blue.5a701ed2aa4c7d745d0d.png",
     "static/media/figure-red.png": "/hackathon/static/media/figure-red.64bbd5222118d3bd11d7.png",
+    "static/media/sunMany.jpg": "/hackathon/static/media/sunMany.9299f5c9da4383df08ab.jpg",
     "static/media/sesili.jpg": "/hackathon/static/media/sesili.a29b12c2fe8955062972.jpg",
     "static/media/geom.webp": "/hackathon/static/media/geom.85c45671b277ebe8caf3.webp",
     "static/media/rezy.jpg": "/hackathon/static/media/rezy.ed1d3d6b545ed650ec40.jpg",
     "static/media/gps.jpg": "/hackathon/static/media/gps.6116a695b3a347e6ba1e.jpg",
     "static/media/aviation.jpg": "/hackathon/static/media/aviation.49bb3f1241f167e1313c.jpg",
     "index.html": "/hackathon/index.html",
-    "main.f5157394.css.map": "/hackathon/static/css/main.f5157394.css.map",
-    "main.413e4463.js.map": "/hackathon/static/js/main.413e4463.js.map"
+    "main.1b4f186e.css.map": "/hackathon/static/css/main.1b4f186e.css.map",
+    "main.5156ec28.js.map": "/hackathon/static/js/main.5156ec28.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5157394.css",
-    "static/js/main.413e4463.js"
+    "static/css/main.1b4f186e.css",
+    "static/js/main.5156ec28.js"
   ]
 }
