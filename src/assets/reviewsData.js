@@ -28,11 +28,11 @@ const reviews = [
     job: 'Tech Evangelist',
     text: 'Sesili is passionate about promoting our project and engaging with the community. She built a network of support and foster conversations around our project, encouraging public interest and participation.'
   },
-  
+
   {
     id: 5,
     name: 'Revaz Tsitsvidze',
-    job: 'Developer',
+    job: 'Software Engineer',
     text: 'Our informal member of the team is mostly bringing our project to life through coding and technical implementation. He also works on the finalization of the visual side of our task and offering web site for the given project.'
   },
 ]
