@@ -20,7 +20,7 @@ const ScienceInsight = () => {
         <div className='science-container-first'>
           <div className='science-text'>
             <div className='science-container-p'>
-              <h4>Space Weathered General</h4>
+              <h4>Space Weather in General</h4>
               <p>Space weather, driven by the Sun, can impact Earth despite the 93 million-mile distance. 
                 This includes magnetic fields, radiation, and charged particles that can create auroras and disrupt satellites or cause blackouts. 
                 The solar wind travels toward Earth at nearly a million miles per hour, but our magnetic field and atmosphere shield us from most particles. 
@@ -30,7 +30,7 @@ const ScienceInsight = () => {
               </p>
             </div>
             <div className='science-container-p'>
-              <h4>Geomatric Storm General Information and Effects</h4>
+              <h4>Geomagnetic Storm: General Information and Effects</h4>
               <p>
                 A geomagnetic storm is a major disturbance of Earth's magnetosphere that happens because 
                 of a very efficient exchange of energy from the solar wind into the space environment surrounding Earth. 
@@ -41,9 +41,9 @@ const ScienceInsight = () => {
               </p>
             </div>
             <div className='science-container-p'>
-              <h4>The Intensity ofa Geomagnetic</h4>
+              <h4>The Intensity of Geomagnetic Storm</h4>
               <p>
-              storm is often measured using the Kp index, which ranges from 0 to 9, with higher values
+              Storm is often measured using the Kp index, which ranges from 0 to 9, with higher values
               indicating stronger storms. Storms with a Kp index of 5 or greater are classified as
               geomagnetic storms. During these storms, the magnetic field lines can become highly
               disturbed, leading to the reconfiguration of the magnetosphere.
@@ -80,7 +80,7 @@ const ScienceInsight = () => {
               <img src={auroraGif} alt="auroras-gif"/>
             </div>
           </div>
-          <div className="second-lefty">
+          <div className="second-righty">
             <div className='second-right'>
               <img src={satellite} alt="satel" className='satel'/>
             </div>
@@ -106,7 +106,7 @@ const ScienceInsight = () => {
               <img src={third} alt="satel-gif" id='mesame-satel'/>
             </div>
           </div>
-          <div className="second-lefty">
+          <div className="second-righty">
             <div className='second-right'>
               <img src={gps} alt="gps" className='gps'/>
             </div>
@@ -123,7 +123,7 @@ const ScienceInsight = () => {
             <div className='second-left'>
               <h4>5. Human Health:</h4>
               <p>
-                o Increased radiation exposure during severe solar events can be a concern for
+                Increased radiation exposure during severe solar events can be a concern for
                 astronauts and high-altitude flights. There is ongoing research into how these
                 events might affect human health on Earth, particularly for sensitive
                 populations.
@@ -133,14 +133,14 @@ const ScienceInsight = () => {
               <img src={health} alt="satel-gif"/>
             </div>
           </div>
-          <div className="second-lefty">
+          <div className="second-righty">
             <div className='second-right'>
               <img src={aviation} alt="gps" className='gps'/>
             </div>
             <div className='second-left' id='gps'>
               <h4>6. Aviation Safety:</h4>
               <p>
-                o Increased radiation levels at high altitudes can pose risks to airline crews
+                Increased radiation levels at high altitudes can pose risks to airline crews
                 and passengers, especially on polar routes. Airlines may reroute flights
                 during severe solar events to avoid these risks.
               </p>

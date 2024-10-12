@@ -13,7 +13,7 @@ function Home() {
     <div className='home-container'>
       <header className='home-header'>
         <div className='home-header-content'>
-          <h1 className='header-title'>Get to know Beyond the Ordinary: <br />The Significance of the 2024 <span className='highlight'>Geomagnetic <br /> Storm</span></h1>
+          <h1 className='header-title'>Get to know Beyond the Ordinary: <br />The Significance of the 2024 <span className='highlight-title'>Geomagnetic <br /> Storm</span></h1>
           <nav className='home-nav'>
             <ul className='home-nav-links'>
               <li className='home-nav-link'>
@@ -53,15 +53,15 @@ function Home() {
           </div>
           <div className='home-list'>
             <img src={visual} alt='interactive storytelling icon'/>
-            <p>Interactive Storytelling</p>
+            <p>Visual Learning Tools</p>
           </div>
           <div className='home-list list-in'>
             <img src={dataVisualisation} alt='interactive storytelling icon'/>
-            <p>Interactive Storytelling</p>
+            <p>Data Visualisation</p>
           </div>
           <div className='home-list'>
             <img src={explore} alt='interactive storytelling icon'/>
-            <p>Interactive Storytelling</p>
+            <p>Explore Cosmic Wonders</p>
           </div>
         </div>
         <div className='home-second-right'>
