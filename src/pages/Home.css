@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
 }
 
 .home-container{
@@ -18,42 +17,32 @@
   display: flex;
   align-items: center;
   width: 100%;
-  margin-left: 15px;
   justify-content: space-between;
-  position: relative;
-  bottom: 50px;
 }
 
 .header-title{
   font-size: 35px;
   margin: 0;
   color: white;
-  margin-top: 15px;
-  flex: 1;
   text-align: center;
-  position: relative;
-  min-width: 700px;
-  right: 10px;
-  top: 30px;
-  margin-top: 40px;
+  flex: 2;
+  margin-top: 16px;
 }
 
-.highlight {
+.highlight-cosmic {
   color: #189d88;
 }
 
 .home-nav {
   display: flex;
-  position: relative;
+  width: fit-content;
+  justify-content: flex-end;
 }
 
 .home-nav-links{
   display: flex;
   list-style: none;
   padding: 0;
-  width: 35rem;
-  position: relative;
-  right: 180px;
 }
 
 .home-nav-link a {
@@ -82,8 +71,6 @@
 }
 
 .home-nav-links {
-  width: 800px;
-  right: 10px;
 }
 
 .home-second-container {
@@ -104,12 +91,9 @@
 
 .home-second-right {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  flex: 1;
-  position: relative;
-  bottom: 80px;
-  right: 90px;
+  gap: 16px;
 }
 
 .home-list {
@@ -136,33 +120,21 @@
   margin-left: 80px;
 }
 
-.home-second-right {
-  width: 500px;
-  position: relative;
-  bottom: 240px;
-}
-
 .home-second-right img {
   width: 700px;
 }
 
-.uncover {
-  width: 800px;
-  position: relative;
-  left: 1100px;
-  bottom: 400px;
-}
-
-@media(max-width: 2560px) {
-  .uncover {
-    left: 1700px;
-    bottom: 70px;
+@media (max-width: 1700px) {
+  .home-header-content {
+    flex-direction: column-reverse;
   }
 
   .header-title {
-    font-size: 40px;
-    width: 50vw;
+    margin-top: 40px;
   }
+}
+
+@media(max-width: 2560px) {
 
   .highlight-title {
     font-size: 40px;
@@ -174,7 +146,6 @@
   }
 
   .home-nav-links {
-    width: 1000px;
   }
 
   .home-list img {
@@ -186,7 +157,7 @@
   }
 
   .home-second-left {
-    margin-left: 270px;
+    margin-left: 14%;
   }
 
   .canvas-styles {
@@ -196,5 +167,152 @@
     top: 150px;
     left: 150px;
     z-index: 1;
+  }
+}
+
+
+@media (max-width: 1990px) {
+  .home-second-left {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .home-second-left {
+    margin-left: 4%;
+  }
+
+  .home-list img {
+    width: 130px;
+  }
+
+  .home-list p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .home-second-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-in {
+    margin-left: 0;
+  }
+}
+
+/* Styles for Hamburger Menu */
+.home-hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  z-index: 1001;
+  position: absolute;
+  top: 20px;  /* Adjust to your preferred vertical position */
+  left: 20px; /* Position it on the left side */
+}
+
+.home-hamburger .home-bar {
+  height: 3px;
+  width: 100%;
+  background-color: white; /* Change to black for better visibility */
+  margin: 4px 0;
+}
+
+/* Styles for Hamburger Menu */
+.home-hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  z-index: 1000; /* Ensures it's on top of other content */
+}
+
+.home-hamburger .home-bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  margin: 4px 0;
+  font-size: 30px;
+}
+
+/* Hide the nav links on smaller screens */
+@media (max-width: 990px) {
+  .home-nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0; /* Move to the left side */
+    background-color: white; /* Set background color to white */
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for a nice effect */
+    width: 100%;
+  }
+
+  .home-nav-links.open {
+    display: flex; /* Show the menu when open */
+  }
+
+  .home-hamburger {
+    display: flex; /* Show hamburger menu on smaller screens */
+    z-index: 1000;
+  }
+
+  .home-nav-link a {
+    color: black; /* Use black text for better contrast on white background */
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left; /* Align text to the left */
+    cursor: pointer;
+
+  }
+
+  .home-nav-link {
+    padding: 10px;
+  }
+
+  .home-second-container,
+  .home-list {
+    margin-top: 100px;
+  }
+
+  .uncover h1 {
+    font-size: 25px;
+  }
+
+  .highlight-cosmic {
+    font-size: 25px;
+  }
+}
+
+@media(max-width: 425px) {
+  .header-title {
+    margin-top: 70px;
+    font-size: 20px;
+  }
+
+  .highlight-title {
+    font-size: 20px;
+  }
+
+  .home-list img {
+    width: 100px;
+  }
+
+  .home-list p {
+    font-size: 18px;
+  }
+
+  .uncover h1 {
+    font-size: 20px;
+  }
+
+  .highlight-cosmic {
+    font-size: 20px;
   }
 }

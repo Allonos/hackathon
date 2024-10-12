@@ -9,6 +9,7 @@ import Header from './Header';
 function FuturePlans() {
   return (
     <>
+    <div className="main-future">
       <Header />
       <div className="future">
         <h1>Future Plans</h1>
@@ -34,6 +35,7 @@ function FuturePlans() {
             <img src={goem} alt="sun images" id="goem"/>
           </div>
         </div>
+      </div>
       </div>
     </>
   )

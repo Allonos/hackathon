@@ -15,6 +15,7 @@ function Reviews() {
   const [index, setIndex] = useState(0);
   const { name, job, text } = members[index];
   let image;
+  let description;
 
   if(index === 0) {
     image = mariam;
@@ -26,6 +27,7 @@ function Reviews() {
     image = sesili;
   } else if (index === 4) {
     image = rezy;
+    description = 'Our informal member of the team is mostly bringing our project to life through coding and technical implementation. He also works on the finalization of the visual side of our task and offering web site for the given project.'
   }
 
   const checkNumber = (number) => {
@@ -53,6 +55,8 @@ function Reviews() {
       return checkNumber(newIndex);
     })
   }
+
+  console.log(name, job, text)
 
   return(
     <main>
