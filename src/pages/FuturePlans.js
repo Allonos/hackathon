@@ -1,6 +1,7 @@
 import './FuturePlans.css'
 
 import manySun from '../images/manySun.jpg'
+import sunMany from '../images/sunMany.jpg'
 import sunGif from '../images/sun-gif.gif'
 import goem from '../images/geom.webp'
 import Header from './Header';
@@ -13,7 +14,8 @@ function FuturePlans() {
         <h1>Future Plans</h1>
         <div className="future-plan">
           <div className="future-left">
-            <img src={manySun} alt="sun images" />
+            <img src={sunMany} alt="sun images" className='secondary-sun'/>
+            <img src={manySun} alt="sun images" className='main-sun'/>
           </div>
           <div className="future-text">
             <p>
@@ -28,7 +30,7 @@ function FuturePlans() {
             </p>
           </div>
           <div className="future-right">
-            <img src={sunGif} alt="sun images" />
+            <img src={sunGif} alt="sun images" id='moving-sun' />
             <img src={goem} alt="sun images" id="goem"/>
           </div>
         </div>

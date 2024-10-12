@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/hackathon/static/css/main.f5157394.css",
+    "main.js": "/hackathon/static/js/main.413e4463.js",
+    "static/media/sun-gif.gif": "/hackathon/static/media/sun-gif.f21d5133cf30a809ed39.gif",
+    "static/media/auroragif.gif": "/hackathon/static/media/auroragif.c0e5f46776690a7c9c25.gif",
+    "static/media/sunmodel.glb": "/hackathon/static/media/sunmodel.5ade414679039e43fd8f.glb",
+    "static/media/real.gif": "/hackathon/static/media/real.ed731a0db9521ed0ed3b.gif",
+    "static/media/manySun.jpg": "/hackathon/static/media/manySun.fa6d3dab32a6eb281ee8.jpg",
+    "static/media/third.gif": "/hackathon/static/media/third.5a96bfaa5593bb1cab42.gif",
+    "static/media/satel.jpg": "/hackathon/static/media/satel.b9e6b34961e0145bd368.jpg",
+    "static/media/health.webp": "/hackathon/static/media/health.14f2c9278c86b65e3cd6.webp",
+    "static/media/visual.png": "/hackathon/static/media/visual.1bb92e18f1b549bcf364.png",
+    "static/media/explore.png": "/hackathon/static/media/explore.5915526653b6e99319f6.png",
+    "static/media/salo.jpg": "/hackathon/static/media/salo.29e62325dcf1a61d53af.jpg",
+    "static/media/cosmos.png": "/hackathon/static/media/cosmos.2441dd8eb2d927e29306.png",
+    "static/media/auroras-100.jpg.webp": "/hackathon/static/media/auroras-100.jpg.a58de82412e5af549dd2.webp",
+    "static/media/figure1.png": "/hackathon/static/media/figure1.6b8acc3eaae204cdc13f.png",
+    "static/media/mariami.jpg": "/hackathon/static/media/mariami.d7ee0f4140a884968b9b.jpg",
+    "static/media/luka1.jpg": "/hackathon/static/media/luka1.9531cf3cc0cc22e12b8e.jpg",
+    "static/media/interactive.png": "/hackathon/static/media/interactive.52afa189edc838fb5c3c.png",
+    "static/media/main-main.png": "/hackathon/static/media/main-main.d3850440fe73033b0e9d.png",
+    "static/media/data-visualisation.png": "/hackathon/static/media/data-visualisation.bbd695d5e9acb052b858.png",
+    "static/media/figure-blue.png": "/hackathon/static/media/figure-blue.5a701ed2aa4c7d745d0d.png",
+    "static/media/figure-red.png": "/hackathon/static/media/figure-red.64bbd5222118d3bd11d7.png",
+    "static/media/sesili.jpg": "/hackathon/static/media/sesili.a29b12c2fe8955062972.jpg",
+    "static/media/geom.webp": "/hackathon/static/media/geom.85c45671b277ebe8caf3.webp",
+    "static/media/rezy.jpg": "/hackathon/static/media/rezy.ed1d3d6b545ed650ec40.jpg",
+    "static/media/gps.jpg": "/hackathon/static/media/gps.6116a695b3a347e6ba1e.jpg",
+    "static/media/aviation.jpg": "/hackathon/static/media/aviation.49bb3f1241f167e1313c.jpg",
+    "index.html": "/hackathon/index.html",
+    "main.f5157394.css.map": "/hackathon/static/css/main.f5157394.css.map",
+    "main.413e4463.js.map": "/hackathon/static/js/main.413e4463.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5157394.css",
+    "static/js/main.413e4463.js"
+  ]
+}
