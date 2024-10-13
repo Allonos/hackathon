@@ -413,7 +413,7 @@ h2 {
 
   .data-bot-right img {
     bottom: 0;
-    left: 0;
+    left: 60px;
     width: 500px;
   }
 }
@@ -454,6 +454,10 @@ h2 {
   .data-bottom-left img {
     width: 350px;
     height: 250px;
+  }
+
+  .data-bot-right img {
+    left: 0;
   }
 }
 

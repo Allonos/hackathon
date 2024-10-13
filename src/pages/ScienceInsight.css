@@ -76,7 +76,7 @@
 
 #righty {
   width: 500px;
-  height: 700px;
+  height: 600px;
   border: 1px solid rgb(128, 128, 128);
 }
 
@@ -196,14 +196,16 @@
   }
 
   #lefty {
-    width: 20vw;
-    height: 800px;
+    width: 500px;
+    height: 500px;
   }
 
   #righty {
-    width: 20vw;
-    height: 1000px;
+    width: 600px;
+    height: 700px;
   }
+
+  .science-container-first .science-container-img {}
 
   .science-container-second {
     margin-top: 200px;
@@ -233,23 +235,31 @@
 
 @media (max-width: 1990px) {
   .science-container-p h4 {
-    font-size: 25px;
-  }
-
-  .science-container-p p {
     font-size: 20px;
   }
 
-  /* .science-container-first .science-container-img {
-    margin-left: 50px;
-  } */
-
-  #lefty {
-    height: 600px;
+  .science-container-p p {
+    font-size: 17px;
   }
 
+  .science-container-first .science-container-img {
+    margin-left: 15px;
+    margin-top: 150px;
+
+  }
+
+  .science-container-img {
+  }
+
+  #lefty{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+  }
+  
   #righty {
-    height: 800px;
+    width: 500px;
+    height: 600px;
   }
 
   .science-container-second h1 {
@@ -282,18 +292,38 @@
   }
 }
 
-@media(max-width: 1440px) {
-  .science-container-first .science-container-img {
-    margin-left: 20px;
+@media (max-width: 1600px) {
+  #lefty {
+    width: 350px;
+    height: 400px;
   }
 
-  #lefty {
+  #righty {
+    width: 350px;
+    height: 500px;
+  }
+
+  .science-container-p {
+    width: 35vw;
+  }
+
+  .science-container-first .science-container-img {
+    gap: 30px;
+  }
+}
+
+@media(max-width: 1440px) {
+  .science-container-first .science-container-img {
+    margin-left: 30px;
+  }
+
+  /* #lefty {
     width: 22vw;
   }
 
   #righty {
     width: 25vw;
-  }
+  } */
 
   .second-lefty {
     gap: 100px;
@@ -301,6 +331,34 @@
 
   .second-righty {
     gap: 100px;
+  }
+
+  .science-container-first {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .science-container-p {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .science-container-first .science-container-img {
+    margin: 0 auto;
+    margin-left: 200px;
+    width: 80vw;
+    gap: 40px;
+    margin-top: 60px;
+  }
+
+  #lefty {
+    width: 30vw;
+    height: 400px;
+  }
+
+  #righty {
+    width: 30vw;
+    height: 600px;
   }
 }
 
@@ -319,16 +377,17 @@
     /* margin-top: 0; */
     margin: 0 auto;
     width: 80vw;
-    gap: 20px;
+    gap: 40px;
+    margin-top: 60px;
   }
 
   #lefty {
-    width: 40vw;
+    width: 37vw;
     height: 400px;
   }
 
   #righty {
-    width: 40vw;
+    width: 37vw;
     height: 600px;
   }
   
